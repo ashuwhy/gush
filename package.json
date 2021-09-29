@@ -1,0 +1,45 @@
+{
+  "name": "gush",
+  "version": "1.0.0",
+  "description": "A electron app for a game Gush made by aMoniker",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "portable": "electron-builder --win portable --x64"
+  },
+  "keywords": [],
+  "author": "aMoniker",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^15.0.0",
+    "electron-builder": "^22.11.7"
+  },
+  "dependencies": {
+    "kaboom": "^0.5.1",
+    "v8-compile-cache": "^2.3.0"
+  },
+  "build": {
+    "appId": "com.aMoniker.gush",
+    "productName": "Gush",
+    "copyright": "Copyright © 2021 ${author}",
+    "win": {
+      "icon": "./Data/icon.ico"
+    },
+    "files": [
+      "./assets/**/*",
+      "./components/**/*",
+      "./events/**/*",
+      "./levels/**/*",
+      "./objects/**/*",
+      "./scenes/**/*",
+      "*.js",
+      "*.html",
+      "*.css"
+    ],
+    "directories": {
+      "buildResources": "build"
+    }
+  }
+}
