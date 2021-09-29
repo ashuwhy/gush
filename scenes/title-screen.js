@@ -1,9 +1,9 @@
-import { k } from "/kaboom.js";
-import { config } from "/config.js";
-import { rng, tween, easing, fadeToScene } from "/utils.js";
-import lifecycle from "/components/lifecycle.js";
-import input, { enableInputListeners } from "/input.js";
-import music from "/music.js";
+import { k } from "../kaboom.js";
+import { config } from "../config.js";
+import { rng, tween, easing, fadeToScene } from "../utils.js";
+import lifecycle from "../components/lifecycle.js";
+import input, { enableInputListeners } from "../input.js";
+import music from "../music.js";
 
 const logoTimer = 1;
 const inputTimer = 5;

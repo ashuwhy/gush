@@ -1,4 +1,4 @@
-import { k } from "/kaboom.js";
+import { k } from "./kaboom.js";
 
 const defaultSavedState = {
   coins: 0,

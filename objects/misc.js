@@ -1,6 +1,6 @@
-import { k } from "/kaboom.js";
-import { rng } from "/utils.js";
-import { config } from "/config.js";
+import { k } from "../kaboom.js";
+import { rng } from "../utils.js";
+import { config } from "../config.js";
 
 /**
  * Misc game objects:

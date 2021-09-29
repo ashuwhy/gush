@@ -1,4 +1,4 @@
-import { k } from "/kaboom.js"
+import { k } from "./kaboom.js"
 
 export const addLayers = () => {
   k.layers([

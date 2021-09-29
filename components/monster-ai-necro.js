@@ -1,11 +1,11 @@
-import { k } from "/kaboom.js";
-import { config } from "/config.js";
-import state from "/state.js";
-import { randInt } from "/utils.js";
-import { skeleton } from "/objects/monster.js";
-import { boundaryMap, getWorldPos, translateWorldToMapCoords } from "/levels/spatial.js";import lifecycle from "/components/lifecycle.js";
-import { monsterWave, spawnObject } from "/levels/maps/utils.js";
-import { aiPlayerInRange } from "/components/utils.js"
+import { k } from "../kaboom.js";
+import { config } from "../config.js";
+import state from "../state.js";
+import { randInt } from "../utils.js";
+import { skeleton } from "../objects/monster.js";
+import { boundaryMap, getWorldPos, translateWorldToMapCoords } from "../levels/spatial.js";import lifecycle from "../components/lifecycle.js";
+import { monsterWave, spawnObject } from "../levels/maps/utils.js";
+import { aiPlayerInRange } from "./utils"
 
 export default (options = {}) => {
   const minSpellDist = config.tileWidth * 2.5; // can't cast spells if player too close

@@ -1,4 +1,4 @@
-import { k } from "/kaboom.js";
+import { k } from "../kaboom.js";
 
 // options may contain `onAdd`/`onUpdate`/`onDestroy`
 // functions which will be called during those events

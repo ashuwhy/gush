@@ -1,9 +1,9 @@
-import { k } from "/kaboom.js";
-import { rng, tween, easing } from "/utils.js";
-import lifecycle from "/components/lifecycle.js";
-import { coordsInBbox, getRenderedWorldBbox } from "/levels/spatial.js";
+import { k } from "/./kaboom.js";
+import { rng, tween, easing } from "/./utils.js";
+import lifecycle from "/./components/lifecycle.js";
+import { coordsInBbox, getRenderedWorldBbox } from "/./levels/spatial.js";
 import { config } from "/config.js";
-import { lineSegmentsIntersect } from "/levels/spatial.js";
+import { lineSegmentsIntersect } from "/./levels/spatial.js";
 
 const startBeamSize = 0.01;
 const endBeamSize = 2;

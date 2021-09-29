@@ -1,8 +1,8 @@
-import { k } from "/kaboom.js";
-import { announce } from "/utils.js";
-import state from "/state.js";
-import { loadNextLevel } from "/levels/maps/index.js";
-import input from "/input.js";
+import { k } from "../kaboom.js";
+import { announce } from "../utils.js";
+import state from "../state.js";
+import { loadNextLevel } from "../levels/maps";
+import input from "../input.js";
 
 let canAnnounce = true;
 let cancelDescentListener = null;

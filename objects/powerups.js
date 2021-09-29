@@ -1,6 +1,6 @@
-import { k } from "/kaboom.js";
-import lifecycle from "/components/lifecycle.js"
-import { rng } from "/utils.js";
+import { k } from "../kaboom.js";
+import lifecycle from "../components/lifecycle.js"
+import { rng } from "../utils.js";
 
 /**
  * Powerups - objects the player can pick up for a bonus effect

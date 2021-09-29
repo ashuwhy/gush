@@ -1,6 +1,6 @@
-import { k } from "/kaboom.js";
-import { aiBasicMoveAttack } from "/components/utils.js";
-import { config } from "/config.js";
+import { k } from "../kaboom.js";
+import { aiBasicMoveAttack } from "./utils";
+import { config } from "../config.js";
 
 export default (options) => {
   return {

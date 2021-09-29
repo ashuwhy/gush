@@ -1,9 +1,9 @@
-import { k } from "/kaboom.js";
-import { config } from "/config.js";
-import state from "/state.js";
-import { aiBasicMoveAttack } from "/components/utils.js"
-import lifecycle from "/components/lifecycle.js";
-import { rng } from "/utils.js";
+import { k } from "../kaboom.js";
+import { config } from "../config.js";
+import state from "../state.js";
+import { aiBasicMoveAttack } from "./utils"
+import lifecycle from "../components/lifecycle.js";
+import { rng } from "../utils.js";
 
 export default (options = {}) => {
 

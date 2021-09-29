@@ -1,6 +1,6 @@
-import { k } from "/kaboom.js"
-import { config } from "/config.js";
-import lifecycle from "/components/lifecycle.js";
+import { k } from "../kaboom.js"
+import { config } from "../config.js";
+import lifecycle from "../components/lifecycle.js";
 
 const wallAttributes = (frame, attrs) => ([
   k.sprite("walls", { frame, noArea: true, ...(attrs ?? {}) }),

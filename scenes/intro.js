@@ -1,8 +1,8 @@
-import { k } from "/kaboom.js";
-import { config } from "/config.js";
-import input, { enableInputListeners } from "/input.js";
-import { addLayers } from "/layers.js";
-import { fadeToScene } from "/utils.js";
+import { k } from "../kaboom.js";
+import { config } from "../config.js";
+import input, { enableInputListeners } from "../input.js";
+import { addLayers } from "../layers.js";
+import { fadeToScene } from "../utils.js";
 
 // Intro scene forces player to interact with the page,
 // which allows audio to run

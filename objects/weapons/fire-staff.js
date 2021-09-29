@@ -1,7 +1,7 @@
-import { k } from "/kaboom.js";
-import { rng, tween, easing } from "/utils.js";
-import lifecycle from "/components/lifecycle.js";
-import { coordsInBbox, getRenderedWorldBbox } from "/levels/spatial.js";
+import { k } from "/./kaboom.js";
+import { rng, tween, easing } from "/./utils.js";
+import lifecycle from "/./components/lifecycle.js";
+import { coordsInBbox, getRenderedWorldBbox } from "/./levels/spatial.js";
 
 export const createFireStaff = (player) => {
   const fireballConfig = () => ([

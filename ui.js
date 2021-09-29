@@ -1,6 +1,6 @@
-import { k } from "/kaboom.js";
-import { config } from "/config.js";
-import state from "/state.js";
+import { k } from "./kaboom.js";
+import { config } from "./config.js";
+import state from "./state.js";
 
 // heart objects for displaying the player's health
 let heartScale = 2;

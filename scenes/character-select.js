@@ -1,11 +1,11 @@
-import { k } from "/kaboom.js";
-import { config } from "/config.js";
-import state from "/state.js";
-import input, { enableInputListeners, vibrateGamepad } from "/input.js";
-import music from "/music.js";
-import { addLayers } from "/layers.js";
-import { fadeIn, fadeToScene } from "/utils.js";
-import { regenerateMapOrders } from "/levels/maps/index.js";
+import { k } from "../kaboom.js";
+import { config } from "../config.js";
+import state from "../state.js";
+import input, { enableInputListeners, vibrateGamepad } from "../input.js";
+import music from "../music.js";
+import { addLayers } from "../layers.js";
+import { fadeIn, fadeToScene } from "../utils.js";
+import { regenerateMapOrders } from "../levels/maps";
 
 const types = [
   {

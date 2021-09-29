@@ -1,5 +1,5 @@
-import { k } from "/kaboom.js";
-import { config } from "/config.js";
+import { k } from "../kaboom.js";
+import { config } from "../config.js";
 
 export default (options) => {
   const maxBurps = 3; // magic number

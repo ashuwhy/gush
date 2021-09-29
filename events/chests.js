@@ -1,9 +1,9 @@
-import { k } from "/kaboom.js";
-import { rng, randInt, tween, easing } from "/utils.js";
-import { handleCoinPickup } from "/events/coins.js";
-import { handleFlaskPickup } from "/events/flasks.js";
-import { coin, flask } from "/objects/powerups.js";
-import { config } from "/config.js";
+import { k } from "../kaboom.js";
+import { rng, randInt, tween, easing } from "../utils.js";
+import { handleCoinPickup } from "./coins";
+import { handleFlaskPickup } from "./flasks";
+import { coin, flask } from "../objects/powerups.js";
+import { config } from "../config.js";
 
 const processChestOpen = (player, chest) => {
   k.play("chest-opening", { volume: 0.8 });

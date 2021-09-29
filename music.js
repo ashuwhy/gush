@@ -1,5 +1,5 @@
-import { k } from "/kaboom.js";
-import state from "/state.js";
+import { k } from "./kaboom.js";
+import state from "./state.js";
 
 const defaultTrackConfigs = {
   "stark-nuances": { volume: 0.63 },

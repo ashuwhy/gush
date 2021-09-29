@@ -1,7 +1,7 @@
-import { k } from "/kaboom.js";
-import { flashColor, tween, easing, rng } from "/utils.js";
-import { config } from "/config.js";
-import { boundaryMap, translateWorldToMapCoords } from "/levels/spatial.js";
+import { k } from "../kaboom.js";
+import { flashColor, tween, easing, rng } from "../utils.js";
+import { config } from "../config.js";
+import { boundaryMap, translateWorldToMapCoords } from "../levels/spatial.js";
 
 const handleMonsterCollision = (player, monster) => {
   if (monster.dead || monster.spawning) return;

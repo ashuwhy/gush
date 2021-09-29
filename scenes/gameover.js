@@ -1,4 +1,4 @@
-import { k } from "/kaboom.js";
+import { k } from "../kaboom.js";
 
 k.scene("gameover", () => {
   k.add([

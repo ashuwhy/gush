@@ -1,5 +1,5 @@
-import { k } from "/kaboom.js"
-import { config } from "/config.js";
+import { k } from "./kaboom.js"
+import { config } from "./config.js";
 
 export const rng = k.makeRng(Date.now());
 

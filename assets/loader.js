@@ -1,5 +1,5 @@
-import { k } from "/kaboom.js";
-import { curry } from "/utils.js";
+import { k } from "../kaboom";
+import { curry } from "../utils.js";
 
 // convenience wrapper to load a sprite in the standard filmstrip format
 // animations are an object mapping of { name: [from, to] }
@@ -13,7 +13,7 @@ const loadBasicSprite = (name, slices, animations) => {
   }
 
   slices = slices ?? 1;
-  return k.loadSprite(name, `/assets/sprites/${name}.png`, {
+  return k.loadSprite(name, `./sprites/${name}.png`, {
     sliceX: slices.x ?? slices,
     sliceY: slices.y ?? 1,
     anims,
@@ -21,7 +21,7 @@ const loadBasicSprite = (name, slices, animations) => {
 };
 
 const loadAudio = (dir, name) => {
-  return k.loadSound(name, `/assets/${dir}/${name}.mp3`);
+  return k.loadSound(name, `./sprites/${dir}/${name}.mp3`);
 }
 
 const loadBasicSound = curry(loadAudio, "sounds");

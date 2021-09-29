@@ -1,6 +1,6 @@
-import { k } from "/kaboom.js";
-import { config } from "/config.js";
-import state from "/state.js";
+import { k } from "../kaboom.js";
+import { config } from "../config.js";
+import state from "../state.js";
 
 export const aiPlayerInRange = (monster, options = {}) => {
   const { player } = state;

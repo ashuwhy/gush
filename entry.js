@@ -1,7 +1,7 @@
-import { k } from "/kaboom.js"
-import { loadAssets } from "/assets/loader.js"
-import { watchWindowResizing } from "/ui.js";
-import "/scenes/index.js"; // initializes all scenes
+import { k } from "./kaboom.js"
+import { loadAssets } from "./assets/loader.js"
+import { watchWindowResizing } from "./ui.js";
+import "./scenes/index.js"; // initializes all scenes
 
 watchWindowResizing();
 loadAssets();

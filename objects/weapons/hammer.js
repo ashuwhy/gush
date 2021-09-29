@@ -1,5 +1,5 @@
-import { k } from "/kaboom.js";
-import { rng, tween, easing } from "/utils.js";
+import { k } from "/./kaboom.js";
+import { rng, tween, easing } from "/./utils.js";
 
 export const createHammer = (player) => {
   const hitBox = k.add([

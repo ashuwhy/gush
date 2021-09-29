@@ -1,6 +1,6 @@
-import { k } from "/kaboom.js";
-import { config } from "/config.js";
-import { tween, easing } from "/utils.js";
+import { k } from "../kaboom.js";
+import { config } from "../config.js";
+import { tween, easing } from "../utils.js";
 
 const processRedFlaskEffects = (player, flask) => {
   const healAmt = flask.is("flask_size_big") ? 6 : 1;

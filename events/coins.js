@@ -1,8 +1,8 @@
-import { k } from "/kaboom.js";
-import { config } from "/config.js";
-import { tween, easing } from "/utils.js";
-import state from "/state.js";
-import { uiUpdateCoins } from "/ui.js";
+import { k } from "../kaboom.js";
+import { config } from "../config.js";
+import { tween, easing } from "../utils.js";
+import state from "../state.js";
+import { uiUpdateCoins } from "../ui.js";
 
 // coins are saved between games and used to unlock new characters
 export const handleCoinPickup = (player, coin, coinCount = 1) => {

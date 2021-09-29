@@ -1,4 +1,4 @@
-import { k } from "/kaboom.js";
+import { k } from "../kaboom.js";
 
 const handleFloorTrap = (player, trap) => {
   const trapDmg = 1;

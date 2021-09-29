@@ -1,13 +1,13 @@
-import { k } from "/kaboom.js";
-import { announce, easing, fadeToScene } from "/utils.js";
-import state, { hasUnlockedAllCharacters } from "/state.js";
-import * as powerups from "/objects/powerups.js";
-import * as monster from "/objects/monster.js";
-import { monsterWave, monsterWaveCircle, monsterWaveLineVertical, monsterWaveLineHorizontal, coinReward, coinRewardCircle, crateWall, crateWallHorizontal, crateWallVertical, spawnObject } from "/levels/maps/utils.js";
-import music from "/music.js";
-import input, { vibrateGamepad } from "/input.js";
-import { config } from "/config.js";
-import { clearMinimap } from "/ui.js";
+import { k } from "/./kaboom.js";
+import { announce, easing, fadeToScene } from "/./utils.js";
+import state, { hasUnlockedAllCharacters } from "/./state.js";
+import * as powerups from "/./objects/powerups.js";
+import * as monster from "/./objects/monster.js";
+import { monsterWave, monsterWaveCircle, monsterWaveLineVertical, monsterWaveLineHorizontal, coinReward, coinRewardCircle, crateWall, crateWallHorizontal, crateWallVertical, spawnObject } from "/./levels/maps/utils.js";
+import music from "/./music.js";
+import input, { vibrateGamepad } from "/./input.js";
+import { config } from "/./config.js";
+import { clearMinimap } from "/./ui.js";
 
 const map = [
   "   ┌{%){)%){)%{┐   ",

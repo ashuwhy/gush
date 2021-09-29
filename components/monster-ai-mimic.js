@@ -1,7 +1,7 @@
-import { k } from "/kaboom.js";
-import { aiBasicMoveAttack } from "/components/utils.js";
-import { config } from "/config.js";
-import state from "/state.js";
+import { k } from "../kaboom.js";
+import { aiBasicMoveAttack } from "./utils.js";
+import { config } from "../config.js";
+import state from "../state.js";
 
 export default (options = {}) => {
   let isAwake = false;

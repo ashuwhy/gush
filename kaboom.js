@@ -1,4 +1,4 @@
-import { config } from "/config.js";
+import { config } from "./config.js";
 
 export const kaboomOptions = {
   canvas: document.getElementById("game"),

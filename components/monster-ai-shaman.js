@@ -1,7 +1,7 @@
-import { k } from "/kaboom.js";
-import { aiBasicMoveAttack } from "/components/utils.js";
-import { config } from "/config.js";
-import { tween, easing } from "/utils.js";
+import { k } from "../kaboom.js";
+import { aiBasicMoveAttack } from "./utils";
+import { config } from "../config.js";
+import { tween, easing } from "../utils.js";
 
 export default (options = {}) => {
   const healAmt = 2;

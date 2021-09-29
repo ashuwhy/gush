@@ -1,8 +1,8 @@
-import { k } from "/kaboom.js";
-import { tween } from "/utils.js";
-import * as misc from "/objects/misc.js";
-import * as powerups from "/objects/powerups.js";
-import { getWorldPos, translateMapToWorldCoords } from "/levels/spatial.js";
+import { k } from "/./kaboom.js";
+import { tween } from "/./utils.js";
+import * as misc from "/./objects/misc.js";
+import * as powerups from "/./objects/powerups.js";
+import { getWorldPos, translateMapToWorldCoords } from "/./levels/spatial.js";
 
 // helper for spawning objects at map coordinates
 export const spawnObject = (conf, x, y) => {

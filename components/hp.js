@@ -1,6 +1,6 @@
-import { k } from "/kaboom.js";
-import { tween } from "/utils.js";
-import { vibrateGamepad } from "/input.js";
+import { k } from "../kaboom.js";
+import { tween } from "../utils.js";
+import { vibrateGamepad } from "../input.js";
 
 export default (options) => {
   let currentHp = options.current;

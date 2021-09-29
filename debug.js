@@ -1,7 +1,7 @@
-import { k } from "/kaboom.js";
-import { config } from "/config.js"
-import { translateWorldToMapCoords } from "/levels/spatial.js";
-import state from "/state.js"
+import { k } from "./kaboom.js";
+import { config } from "./config.js"
+import { translateWorldToMapCoords } from "./levels/spatial.js";
+import state from "./state.js"
 
 const debugShowFps = () => {
   const fpsText = k.add([

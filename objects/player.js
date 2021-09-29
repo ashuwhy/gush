@@ -1,21 +1,21 @@
-import { k } from "/kaboom.js";
-import { config } from "/config.js";
-import { uiUpdateHealth, uiUpdateBurps, uiUpdateCoins } from "/ui.js";
-import { createBow } from "/objects/weapons/bow.js";
-import { createSword } from "/objects/weapons/sword.js";
-import { createSpear } from "/objects/weapons/spear.js";
-import { createCleaver } from "/objects/weapons/cleaver.js";
-import { createHammer } from "/objects/weapons/hammer.js";
-import { createFireStaff } from "/objects/weapons/fire-staff.js";
-import { createLaserStaff } from "/objects/weapons/laser-staff.js";
-import { fadeToScene, flashColor, tween, easing, rng } from "/utils.js";
-import { coordsInBbox, getRenderedMapBbox } from "/levels/spatial.js";
-import state from "/state.js";
-import music from "/music.js";
-import input, { vibrateGamepad } from "/input.js";
+import { k } from "../kaboom.js";
+import { config } from "../config.js";
+import { uiUpdateHealth, uiUpdateBurps, uiUpdateCoins } from "../ui.js";
+import { createBow } from "./weapons/bow";
+import { createSword } from "./weapons/sword";
+import { createSpear } from "./weapons/spear";
+import { createCleaver } from "./weapons/cleaver";
+import { createHammer } from "./weapons/hammer";
+import { createFireStaff } from "./weapons/fire-staff";
+import { createLaserStaff } from "./weapons/laser-staff";
+import { fadeToScene, flashColor, tween, easing, rng } from "../utils.js";
+import { coordsInBbox, getRenderedMapBbox } from "../levels/spatial.js";
+import state from "../state.js";
+import music from "../music.js";
+import input, { vibrateGamepad } from "../input.js";
 
-import hp from "/components/hp.js";
-import burp from "/components/burp.js";
+import hp from "../components/hp.js";
+import burp from "../components/burp.js";
 
 const playerType = {
   knight: {

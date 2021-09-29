@@ -1,8 +1,8 @@
-import { k } from "/kaboom.js";
-import { config } from "/config.js";
-import state from "/state.js";
-import { aiBasicMoveAttack } from "/components/utils.js"
-import lifecycle from "/components/lifecycle.js";
+import { k } from "../kaboom.js";
+import { config } from "../config.js";
+import state from "../state.js";
+import { aiBasicMoveAttack } from "./utils"
+import lifecycle from "./lifecycle.js";
 
 export default (options = {}) => {
   const minSpellDist = config.tileWidth * 3; // can't cast spells if player too close

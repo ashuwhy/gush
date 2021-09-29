@@ -1,12 +1,12 @@
-import { k } from "/kaboom.js";
-import { generateMap } from "/levels/maps/index.js";
-import { getWorldPos, regenerateBoundaryMap } from "/levels/spatial.js";
+import { k } from "../kaboom.js";
+import { generateMap } from "./maps";
+import { getWorldPos, regenerateBoundaryMap } from "./spatial";
 import { extantObjects, drawVisibleObjects, resetDrawLoop, objectConfigs, regenerateObjectConfigs, initializeMinimap, startMonsterLOSLoop, startMonsterDespawnLoop } from "/levels/visibility.js";
-import { createPlayer } from "/objects/player.js";
-import { getMapWidth } from "/levels/utils.js";
-import state from "/state.js";
-import music from "/music.js";
-import { clearAllAnnouncements } from "/utils.js";
+import { createPlayer } from "../objects/player.js";
+import { getMapWidth } from "./utils";
+import state from "../state.js";
+import music from "../music.js";
+import { clearAllAnnouncements } from "../utils.js";
 
 // add the player at the appropriate position on the map
 // this should be done last so the player sprite is above others.

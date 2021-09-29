@@ -1,5 +1,5 @@
-import { k } from "/kaboom.js";
-import { tween, easing } from "/utils.js";
+import { k } from "/./kaboom.js";
+import { tween, easing } from "/./utils.js";
 
 export const createSpear = (player) => {
   const hitBox = k.add([

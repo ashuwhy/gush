@@ -1,7 +1,7 @@
-import { k } from "/kaboom.js";
-import { config } from "/config.js";
-import { getMapWidth, getTileContext } from "/levels/utils.js";
-import { generateMap } from "/levels/maps/index.js";
+import { k } from "../kaboom.js";
+import { config } from "../config.js";
+import { getMapWidth, getTileContext } from "./utils";
+import { generateMap } from "./maps";
 import {
   GameObjectsMap,
   boundaryMap,
@@ -10,10 +10,10 @@ import {
   getRenderedMapBbox,
   getWorldPos,
   translateWorldToMapCoords,
-} from "/levels/spatial.js";
-import { getObjectConfigsForSymbol } from "/levels/legend.js";
-import state from "/state.js";
-import { autoResizeMinimap, clearMinimap } from "/ui.js";
+} from "./spatial";
+import { getObjectConfigsForSymbol } from "./legend";
+import state from "../state.js";
+import { autoResizeMinimap, clearMinimap } from "../ui.js";
 
 // store references to all object configs on the map
 export const objectConfigs = new GameObjectsMap();

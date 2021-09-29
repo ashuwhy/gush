@@ -1,15 +1,15 @@
-import { k } from "/kaboom.js";
-import hp from "/components/hp.js";
-import gusher from "/components/gusher.js";
-import skullDropper from "/components/skull-dropper.js";
-import lifecycle from "/components/lifecycle.js";
-import monsterAISimple from "/components/monster-ai-simple.js";
-import monsterAINecro from "/components/monster-ai-necro.js";
-import monsterAIShaman from "/components/monster-ai-shaman.js";
-import monsterAIMimic from "/components/monster-ai-mimic.js";
-import monsterAIDemonSmall from "/components/monster-ai-demon-small.js";
-import monsterAIDemonBoss from "/components/monster-ai-demon-boss.js";
-import { rng } from "/utils.js"
+import { k } from "../kaboom.js";
+import hp from "../components/hp.js";
+import gusher from "../components/gusher.js";
+import skullDropper from "../components/skull-dropper.js";
+import lifecycle from "../components/lifecycle.js";
+import monsterAISimple from "../components/monster-ai-simple.js";
+import monsterAINecro from "../components/monster-ai-necro.js";
+import monsterAIShaman from "../components/monster-ai-shaman.js";
+import monsterAIMimic from "../components/monster-ai-mimic.js";
+import monsterAIDemonSmall from "../components/monster-ai-demon-small.js";
+import monsterAIDemonBoss from "../components/monster-ai-demon-boss.js";
+import { rng } from "../utils.js"
 
 const buildMonster = (spriteName, area, extraAttrs) => ([
   k.sprite(spriteName, { noArea: true }),
